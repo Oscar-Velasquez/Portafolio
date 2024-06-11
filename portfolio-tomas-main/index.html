@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <!-- encabezado -->
+    <header>
+        <span class="en">Ingles</span>
+        <input type="checkbox" class="check" checked>
+        <span class="es">Español</span>
+        
+        
+        <nav class="menu" id="nav">
+            <ul>
+                <li>
+                    <a href="#inicio" onclick="abrirCerrarMenu()">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobremi" onclick="abrirCerrarMenu()">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#proyectos" onclick="abrirCerrarMenu()">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#logros" onclick="abrirCerrarMenu()">Logros</a>
+                </li>
+                   
+
+                
+                
+                
+                <!--<li>
+                    <a href="#contacto" onclick="abrirCerrarMenu()">Contacto</a>
+                </li>-->
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- sección inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <div class="info" style="margin-left: 40px;">
+                        <h1><img src="/img/OL.png" alt="" style="width: 250px;"></h1>
+                        <h2>Experto en diseño web creativo y funcional.</h2>
+                    </div>
+                </div>
+                
+                <div class="col1">
+                    <div class="col">
+                        <img src="img/FTCurriculo1.jpg" class="anim2">
+                    </div>            
+            </div>
+        </div>
+    </section>
+    
+    <!-- sección sobre mi -->
+    <section id="sobremi">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <h2 class="titulo-seccion">Sobre <span class="resaltado">mí</span></h2>
+                    <h3>Mi nombre es Oscar Manuel Lopez Velasquez y mis principales habilidades son: </h3>
+                    <div class="skills">
+                        <p> <span class="punto"></span> Diseño Web</p>
+                        <div class="barra-skill">
+                            <div class="progresodw">
+                                <span>75%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span> Redes</p>
+                        <div class="barra-skill">
+                            <div class="progresodg">
+                                <span>90%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span> Bases de Datos</p>
+                        <div class="barra-skill">
+                            <div class="progresobd">
+                                <span>85%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span>Robotica</p>
+                        <div class="barra-skill">
+                            <div class="progresomd">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary" id="dowloadButton">Descargar CV</button>
+                </div>
+                <div class="col">
+                    <h2 style="margin-top: -10px; "  class="titulo-seccion">Informacion <span class="resaltado">Personal</span></h2>
+                    <p>Tengo 21 años y estoy estudiando Ingeniería en Sistemas, En mi tiempo libre, me gusta explorar nuevas tecnologías, resolver problemas interesantes y contribuir a proyectos de código abierto. También disfruto leer libros técnicos, asistir a conferencias y participar en comunidades en línea relacionadas con la informática.
+
+                        Mi objetivo principal es mejorar mis habilidades en programación, análisis de datos, seguridad informática y arquitectura de sistemas. Siempre estoy atento a nuevas oportunidades para aplicar lo que he aprendido y contribuir al progreso tecnológico en entornos profesionales y académicos.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="trabajos" id="logros">
+        <h2>Premios y reconocimientos</h2>
+        <br>
+        <br>
+
+      
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/cer1.png" alt="">
+                <div class="info">
+                    <h3>Cisco redes</h3>
+                    <span>Packed traccer</span>
+                    <a href="https://drive.google.com/file/d/1oFT2qWmMdMFksKj4g_S7yNFrDS6UCGKW/view?usp=sharing"  target="_blank">Ver</a>
+                    <a href="/cer1.html"  target="_blank">Detalles</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/logro1.jpg" alt="">
+                <div class="info">
+                    <h3>Competencia de robotica</h3>
+                    <span>Arduino</span>
+                    <a href="https://drive.google.com/file/d/15DZRS5S1C-BdMZW84gr0bO4aV9loi-bS/view?usp=sharing"  target="_blank">Ver</a>
+                    <a href="/cer2.html"  target="_blank">Detalles</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/cer2.png" alt="">
+                <div class="info">
+                    <h3>Cloud skills challenge</h3>
+                    <span>Azure</span>
+                    <a href="https://drive.google.com/file/d/1Qh3DPl3ggODmhirICQJ0oWizYvaKfa1R/view?usp=sharing"  target="_blank">Ver</a>
+                    <a href="/cer3.html"  target="_blank">Detalles</a>
+                </div>
+               
+            </div>
+    </section>
+    <section>
+        <br>
+        <br>
+        <br>
+        <br>
+      
+    </section>
+
+    <!-- sección cursos -->
+    <section id="proyectos">
+        <div class="contenido">
+            <h2 class="titulo-seccion">Casos <span class="resaltado">de Éxito</span></h2>
+            <div class="fila">
+                
+                </div>
+
+            
+
+            </div>
+        </div>
+    </section>
+
+    <!-- numeros -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+        <br>
+        <br>
+
+      
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/c1.jpg" alt="">
+                <div class="info">
+                    <h3>Lector inteligente</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://github.com/MigueloRuiz14/LectorInteligente.git"  target="_blank">Ver Trabajo</a>
+                    <a href="/pro1.html"  target="_blank">Detalles</a>
+
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/c2.jpg" alt="">
+                <div class="info">
+                    <h3>Limpieza UGB-CRU</h3>
+                    <span>Android Studio</span><span>javascript</span>
+                    <a href="https://github.com/eliseolozanowp/Limpieza_UGB.git"  target="_blank">Ver Trabajo</a>
+                    <a href="/pro2.html"  target="_blank">Detalles</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/c3.jpg" alt="">
+                <div class="info">
+                    <h3>MyEducacin</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://github.com/Oscar-Velasquez/MyEducacin.git"  target="_blank">Ver Trabajo</a>
+                    <a href="/pro3.html"  target="_blank">Detalles</a>
+                </div>
+               
+            </div>
+            
+            <div class="item disenio">
+                <img src="img/tk1.png" alt="">
+                <div class="info">
+                    <h3>Circuito de saludo</h3>
+                   <span>C/C++</span>
+                    <a href="https://www.tinkercad.com/things/hi0gvfUZ0JP-circuito-15?sharecode=_feCYWF3REQ99IsxqR2OT7ytHD0q9MihC8NlzdzsKdE"  target="_blank">Ver Trabajo</a>
+                    <a href="/pro4.html"  target="_blank">Detalles</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/tk2.png" alt="">
+                <div class="info">
+                    <h3>Circuito semaforo</h3>
+                    <span>C/C++</span>
+                    <a href="https://www.tinkercad.com/things/cDix8kTzkRV-circuito-13?sharecode=3AOyA-GVHNgLqZib5t7ctHg00TatSv5PZJREt7fQ2jU"  target="_blank">Ver Trabajo</a>
+                    <a href="/pro5.html"  target="_blank">Detalles</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/tk3.png" alt="">
+                <div class="info">
+                    <h3>Auto robotico</h3>
+                    <span>C/C++</span>
+                    <a href="https://www.tinkercad.com/things/cetSfIYOQ92-proyecto-auto-robotico?sharecode=0tr_Gd4qZlYHv3y-BdhpO1zCLcRdNhL4EsD8tTy7GjU"  target="_blank">Ver Trabajo</a>
+                    <a href="/pro6.html"  target="_blank">Detalles</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <br>
+    <br>
+    <section id="intereses">
+        <div class="contenido">
+            <h2 class="titulo-seccion">Intereses <span class="resaltado"></span></h2>
+            <div class="fila">
+                
+                </div>
+
+            
+
+            </div>
+            <table>
+                <tr>
+                    <th>Categoría</th>
+                    <th>Interés (1-10)</th>
+                   
+                </tr>
+                <tr>
+                    <td>Deportes</td>
+                    <td>8</td>
+                   
+                </tr>
+                <tr>
+                    <td>Fútbol</td>
+                    <td>9</td>
+                    
+                </tr>
+                <tr>
+                    <td>Películas</td>
+                    <td>7</td>
+                   
+                <tr>
+                    <td>Series</td>
+                    <td>8</td>
+                   
+                </tr>
+                <tr>
+                    <td>Juegos</td>
+                    <td>9</td>
+                    
+                </tr>
+            </table>
+           
+    </section>
+   
+    <!-- numeros -->
+    
+    
+    <section id="proyectos">
+        <div class="contenido">
+            <h2 class="titulo-seccion">Testimonios <span class="resaltado"></span></h2>
+            <div class="fila">
+                
+                </div>
+
+            
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <br>
+        <br>
+      
+    </section>
+
+    
+
+    <section class="contact">
+       
+      
+    </section>
+    
+    <section>
+        <br>
+        <br>
+      
+      
+    </section>
+    <section>
+        <br>
+        <br>
+      
+      
+    </section>
+    
+
+    <!-- sección subscripción -->
+    
+
+    
+    <footer>
+        <div class="contenido" style="margin-bottom: 0;">
+            <div class="col3" style="height: 80%; width: 60%;">
+                <div class="redes">
+                    <p>Tambien puedes contactarme en:</p>
+                   
+                    <a href="https://www.linkedin.com/in/oscar-velasquez-2618a22b7?trk=contact-info" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Oscar-Velasquez?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <div id="contenido5" style="margin-left: 20%; margin-bottom: 0;">
+                
+                <br>
+                <div class="contenido2" style="text-align: justify;  margin-left: 100px; margin-right: 0px; margin: 10px 0;">
+                <p>Contacto:</p>
+                <br>
+                <p>Correo: oscarlop503@gmail.com </p>
+                <br>
+                <p>Telefono: +50376372918</p>
+                <br>
+                <p>Ubicacion: San Dionisio/Usulután/El Salvador</p><br><br>
+                <br>
+                
+                <p class="contenido3" style="margin-left: 50%; width: 60%; margin-bottom: 0;">© 2024 Copyringht: Oscar Velasquez</p>
+            </div>
+            <div class="contenido4" style="text-align: justify; position: relative;  margin-left: 100px; margin-right: 0;  top: -260px; right: -400px; ">
+                <p">Servicios:</p>
+                <br>
+                <p>Diseño web </p>
+                <br>
+                <p>Manejo de Bases de Datos</p>
+                <br>
+                <p>Conocimiento alto sobre </p>
+                </div>
+                
+              
+                
+            </div>
+            
+           
+            
+        </div>
+        </div>
+    </footer>
+    <footer></footer>
+    <footer></footer>
+    <footer>
+        <footer></footer>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+    <script src="correo.php"></script>
+</body>
+</html>
